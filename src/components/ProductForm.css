@@ -1,0 +1,39 @@
+.form-box {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.form-box textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.form-box button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: #1e40af;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
