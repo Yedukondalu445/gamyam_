@@ -16,4 +16,4 @@ function Pagination({ total, perPage, current, setCurrent }) {
     </div>
   );
 }
-export default Pagination();
+export default Pagination;

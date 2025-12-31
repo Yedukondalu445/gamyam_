@@ -96,4 +96,4 @@ function ProductForm({ onSave, editProduct }) {
     </div>
   );
 }
-export default ProductForm();
+export default ProductForm;

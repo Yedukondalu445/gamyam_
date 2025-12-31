@@ -20,4 +20,4 @@ function ProductCard({ products, onEdit }) {
     </div>
   );
 }
-export default ProductCard();
+export default ProductCard;

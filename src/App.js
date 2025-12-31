@@ -18,7 +18,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [editProduct, setEditProduct] = useState(null);
 
-  
+  console.log("Rendering App with products:", products);
   useEffect(() => {
     const result = products.filter(p =>
       p.name.toLowerCase().includes(search.toLowerCase())

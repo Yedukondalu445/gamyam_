@@ -28,4 +28,4 @@ function ProductTable({ products, onEdit }) {
     </table>
   );
 }
-export default ProductTable();
+export default ProductTable;
