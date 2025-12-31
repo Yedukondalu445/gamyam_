@@ -1,7 +1,15 @@
 import "./ProductTable.css";
 
-function ProductTable({ products, onEdit }) {
+
+function ProductTable({ products, onEdit })
+
+
+{
+
+  
   return (
+
+    
     <table border="1">
       <thead>
         <tr>

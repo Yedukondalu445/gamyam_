@@ -1,4 +1,4 @@
-export const productsData = [
+export const productsData =[
   {
     "id": 1,
     "name": "Wireless Mouse",
@@ -600,3 +600,4 @@ export const productsData = [
     ]
   }
 ]
+  

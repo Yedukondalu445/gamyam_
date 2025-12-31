@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./ProductForm.css";
 
-function ProductForm({ onSave, editProduct }) {
+
+function ProductForm({ onSave, editProduct, showToast }) {
   const [form, setForm] = useState({
     name: "",
     price: "",
@@ -37,7 +38,8 @@ function ProductForm({ onSave, editProduct }) {
       onSave(form);
 
       if (editProduct) {
-        alert("Successfully updated the data");
+        showToast("Product saved successfully", "success");
+
       }
 
     
